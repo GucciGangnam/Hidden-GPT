@@ -1,0 +1,8 @@
+.ResponseComp {
+    padding: 50px;
+    height: 100%; /* Take up all available vertical space */
+    max-height: calc(100vh - 450px); /* Calculate the maximum height */
+    overflow-y: scroll;
+}
+
+.QABox {}

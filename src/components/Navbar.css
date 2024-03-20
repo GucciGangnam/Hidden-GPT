@@ -1,0 +1,40 @@
+.Navbar {
+    /* outline */
+    /* display */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Dimentions */
+    min-height: 54px;
+    max-height: 54px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* Styles */
+    background-color: white;
+    color: black;
+}
+.Navbar-left{ 
+    display: flex;
+    align-items: center;
+
+}
+
+/* LOGO */
+.Logo {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 2px solid black;
+}
+
+.Navbar-BTN{ 
+    border: none;
+    border: 2px solid white;
+    background: none;
+}
+.Navbar-BTN:hover{ 
+    cursor: pointer;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background: none;
+}
