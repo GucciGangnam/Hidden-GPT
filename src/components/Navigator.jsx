@@ -18,7 +18,6 @@ export const Navigator = ({ prompt, setPrompt, questionHistory, setQuestionHisto
     const apiKey = import.meta.env.VITE_API_KEY;
     // Define the request body
     const fetchResponse = async () => {
-        console.log(apiKey)
         const requestBody = {
             contents: [
                 {
@@ -79,13 +78,13 @@ export const Navigator = ({ prompt, setPrompt, questionHistory, setQuestionHisto
             </form>
 
             <div className='Navigator-BTNs'>
-                <button className='Navigator-BTN'><img src='public/Done.png' />Get started</button>
-                <button className='Navigator-BTN'><img src='public/User Settings.png' />Add accounts</button>
-                <button className='Navigator-BTN'><img src='public/Email.png' />Email</button>
-                <button className='Navigator-BTN'><img src='public/Calendar.png' />Calendar</button>
-                <button className='Navigator-BTN'><img src='public/User Settings.png' />Contacts & tasks</button>
-                <button className='Navigator-BTN'><img src='public/Business.png' />Manage</button>
-                <button className='Navigator-BTN'><img src='public/Wrench.png' />Troubleshooting</button>
+                <button className='Navigator-BTN'><img src='/Done.png' />Get started</button>
+                <button className='Navigator-BTN'><img src='/User Settings.png' />Add accounts</button>
+                <button className='Navigator-BTN'><img src='/Email.png' />Email</button>
+                <button className='Navigator-BTN'><img src='/Calendar.png' />Calendar</button>
+                <button className='Navigator-BTN'><img src='/User Settings.png' />Contacts & tasks</button>
+                <button className='Navigator-BTN'><img src='/Business.png' />Manage</button>
+                <button className='Navigator-BTN'><img src='/Wrench.png' />Troubleshooting</button>
             </div>
         </div>
     )
