@@ -74,7 +74,7 @@ export const Navigator = ({ prompt, setPrompt, questionHistory, setQuestionHisto
                     value={prompt}
                     onChange={handlePromptChange}
                     placeholder='How can we help you?' />
-                <button type='submit'><img style={{ width: "20px" }} src='public/Right.png' /></button>
+                <button type='submit'><img style={{ width: "20px" }} src='/Right.png' /></button>
             </form>
 
             <div className='Navigator-BTNs'>

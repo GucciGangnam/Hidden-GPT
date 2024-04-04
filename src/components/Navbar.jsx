@@ -18,7 +18,7 @@ export const Navbar = () => {
         <div className='Navbar'>
             <div className='Navbar-left'>
                 <div className='Logo'>
-                    <img src='public/Microsoft.png'></img>
+                    <img src='/Microsoft.png' alt='Microsoft Logo'></img>
                     Microsoft
                 </div>
                 <button style={{ fontSize: '18px' }} className='Navbar-BTN'><strong>Supoprt</strong></button>
